@@ -1,0 +1,3 @@
+[submodule "angular/angular2-todo"]
+	path = angular/angular2-todo
+	url = https://Verric@bitbucket.org/Verric/angular2-todo.git
