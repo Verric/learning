@@ -1,6 +1,0 @@
-[submodule "angular/angular2-todo"]
-	path = angular/angular2-todo
-	url = https://Verric@bitbucket.org/Verric/angular2-todo.git
-[submodule "code-challenges/code_eval"]
-	path = code-challenges/code_eval
-	url = https://github.com/Verric/code_eval.git
