@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="card">
+    <h4 class="card-header">Todo App</h4>
+    <div class="card-body">
+      <h1><span class="badge badge-primary">Number of Todo's: {{todoCount}}</span></h1>
+      <div class="input-group">
+        <input type="text" maxlength="20" #todoInput (keyup.enter)="addTodo(todoInput)">
+      </div>
+      <div *ngIf="todos">
+        <div *ngFor="let todo of todos">
+          <div class="card">
+            <div class="card-header">
+              Todo: {{todo.id}}
+            </div>
+            <div class="card-block">
+              <p class="card-text">{{todo.text}}</p>
+              <button class="btn btn-danger" (click)="completeTodo(todo.id)">Remove Todo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
