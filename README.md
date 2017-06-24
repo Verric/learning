@@ -19,5 +19,7 @@ Code Challenges
 ---------------
 
 [WAP -- OUTDATED](https://github.com/Verric/learning/tree/wap)
+
 [Project Euler -- OUTDATED](https://github.com/Verric/learning/tree/euler-project)
+
 [Code Eval -- STALE](https://github.com/Verric/learning/tree/code-eval)
