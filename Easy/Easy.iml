@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ArmstrongNumbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BitPositions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CapitalizeWords" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Distance_between_two_points" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EvenNumbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FiboncacciSeries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FileZise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FindWriter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FizzBuzz" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HextoDecimal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LettercaseRatio" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LongestWord" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LowestUniqueNumber" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MajorElement" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MixedContent" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Modulo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MorseCode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MultipleOfaNumber" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MultiplicationTables" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MultiplyLists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OddNumbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Penultimate_Word" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PrimePalindrome" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/QueryBoards" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ReverseWords" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RightMostChar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SetIntersection" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SimpleSorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SumOfPrimes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SumofDigits" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwapCase" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwapElements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TotalSum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UniqueElements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WordtoDigit" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lowercase" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
