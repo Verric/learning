@@ -17,7 +17,8 @@ export class TodoDataService {
 
 // actions
   addTodo(todo: Todo): void {
-    todo.id = this.id++; 
+    if(!todo.id){ todo.id = this.id++; }
+
     this.todos.splice(0,0,todo); //ensures new items are at the "top" of the list
   }
 
