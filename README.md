@@ -22,10 +22,10 @@ May revise in near future:
 
 TODO:
 
-1. Put logic into a service (read up on where to put state, as angular only seems to have component local state???)
-2. Fix up styling, make it look purtty.
-3. Add some basic tests
-4. Differentiate between completing a todo and deleting a todo
+1. ~~Put logic into a service (read up on where to put state, as angular only seems to have component local state???)~~
+2. ~~Fix up styling, make it look purtty.~~ sorta
+3. ~~Add some basic tests~~ -- complete Todo Component tests (learn angular test bed thingy)
+4. ~~Differentiate between completing a todo and deleting a todo~~
 5. win!
 
 Resources: 
