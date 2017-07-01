@@ -1,24 +1,22 @@
-<div class="container">
-  <div class="card">
-    <h4 class="card-header">Todo App</h4>
-    <div class="card-body">
-      <h1><span class="badge badge-primary">Number of Todo's: {{todoCount}}</span></h1>
-      <div class="input-group">
-        <input type="text" maxlength="20" #todoInput (keyup.enter)="addTodo(todoInput)">
-      </div>
-      <div *ngIf="todos">
-        <div *ngFor="let todo of todos">
-          <div class="card">
-            <div class="card-header">
-              Todo: {{todo.id}}
-            </div>
-            <div class="card-block">
-              <p class="card-text">{{todo.text}}</p>
-              <button class="btn btn-danger" (click)="completeTodo(todo.id)">Remove Todo</button>
-            </div>
+<section class="container" style="width: 500px">
+  <h4 class="text-center">Todos</h4>
+  <input type="text" placeholder="Add a new todo" style="width: 100%" autofocus="" maxlength="30" #todoInput (keyup.enter)="addTodo(todoInput)">
+  <section *ngIf="todos">
+    <ul class="list-group">
+      <li *ngFor="let todo of todos" class="list-group-item">
+        <div class="row">
+          <div class="col-md-9">
+            <input type="checkbox" (click)="toggleComplete(todo)" [checked]="todo.completed">
+            <label [class.complete]="todo.completed">{{todo.title}}</label>
+          </div>
+          <div class="col-md-3">
+            <button class="btn btn-sm btn-danger" (click)="deleteTodo(todo)">Delete</button>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+      </li>
+    </ul>
+      <footer>  
+    <p>open: {{todos.length - completedItems}}  completed: {{completedItems}}</p>
+  </footer>
+  </section>
+</section>
