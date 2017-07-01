@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { TodoDataService } from '../todo-data.service';
+import { Todo } from './todo';
 
 @Component({
   selector: 'app-todo',
@@ -6,34 +8,32 @@ import { Component } from '@angular/core';
   styleUrls: ['./todo.component.css']
 })
 export class TodoComponent  {
-  idCounter:number;
-  todoCount:number;
-  todos: Todo[];
 
-  constructor() { 
-    this.idCounter = 0;
-    this.todoCount = 0;
-    this.todos = new Array<Todo>();
+  constructor(private service: TodoDataService){ }
+
+  get todos() {
+    return this.service.getAllTodos();
   }
 
-  addTodo(input:HTMLInputElement): void {
-    let temp: Todo = {
-      id: this.idCounter++,
-      text: input.value
-    };
-    this.todos.push(temp);
-    this.todoCount++;
-    input.value = "";
+  get completedItems(): number {
+    return this.todos.filter(todo => todo.completed).length;
   }
 
-  completeTodo(id:number): void {
-    this.todos = this.todos.filter(todo => todo.id !== id);
-    this.todoCount--;
+  addTodo(input: HTMLInputElement) {
+    
+    this.service.addTodo({
+      id: undefined,
+      title: input.value,
+      completed: false
+    });
+    input.value = '';
   }
 
-}
+  deleteTodo(todo:Todo):void {
+    this.service.deleteTodo(todo.id);
+  }
 
-class Todo {
-  id: number;
-  text: string;
+  toggleComplete(todo:Todo) {
+    this.service.toggleComplete(todo.id);
+  }
 }
