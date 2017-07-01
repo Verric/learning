@@ -15,6 +15,10 @@ export class TodoDataService {
     return this.todos;
   }
 
+  getTodoById(id: number): Todo {
+    return this.todos.filter(todo => todo.id === id)[0];
+  }
+
 // actions
   addTodo(todo: Todo): void {
     if(!todo.id){ todo.id = this.id++; }
